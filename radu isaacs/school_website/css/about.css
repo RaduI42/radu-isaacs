@@ -1,0 +1,47 @@
+
+
+.foot {
+  display: ruby-text-container;
+ justify-content: space-between;
+   text-align: center;
+   float: inline-end;
+      }
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container_row{
+  display: grid;
+  text-align: center;
+  
+}
+.nav-item {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: black;
+  cursor: pointer;
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.active, .nav-item:hover {
+  background-color: #666;
+  color: white;
+}
+
+.foot {
+    display: ruby-text-container;
+    justify-content: space-between;
+    text-align: center;
+    float: inline-end;
+  }
+  .btn {
+  font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {opacity: 1}
